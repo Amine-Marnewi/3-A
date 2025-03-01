@@ -1,0 +1,116 @@
+Name: models/chat-bison-001
+Supported methods: ['generateMessage', 'countMessageTokens']
+
+Name: models/text-bison-001
+Supported methods: ['generateText', 'countTextTokens', 'createTunedTextModel']
+
+Name: models/embedding-gecko-001
+Supported methods: ['embedText', 'countTextTokens']
+
+Name: models/gemini-1.0-pro-latest
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-1.0-pro
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-pro
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-1.0-pro-001
+Supported methods: ['generateContent', 'countTokens', 'createTunedModel']
+
+Name: models/gemini-1.0-pro-vision-latest
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-pro-vision
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-1.5-pro-latest
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-1.5-pro-001
+Supported methods: ['generateContent', 'countTokens', 'createCachedContent']
+
+Name: models/gemini-1.5-pro-002
+Supported methods: ['generateContent', 'countTokens', 'createCachedContent']
+
+Name: models/gemini-1.5-pro
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-1.5-flash-latest
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-1.5-flash-001
+Supported methods: ['generateContent', 'countTokens', 'createCachedContent']
+
+Name: models/gemini-1.5-flash-001-tuning
+Supported methods: ['generateContent', 'countTokens', 'createTunedModel']
+
+Name: models/gemini-1.5-flash
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-1.5-flash-002
+Supported methods: ['generateContent', 'countTokens', 'createCachedContent']
+
+Name: models/gemini-1.5-flash-8b
+Supported methods: ['createCachedContent', 'generateContent', 'countTokens']
+
+Name: models/gemini-1.5-flash-8b-001
+Supported methods: ['createCachedContent', 'generateContent', 'countTokens']
+
+Name: models/gemini-1.5-flash-8b-latest
+Supported methods: ['createCachedContent', 'generateContent', 'countTokens']
+
+Name: models/gemini-1.5-flash-8b-exp-0827
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-1.5-flash-8b-exp-0924
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-2.0-flash-exp
+Supported methods: ['generateContent', 'countTokens', 'bidiGenerateContent']
+
+Name: models/gemini-2.0-flash
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-2.0-flash-001
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-2.0-flash-lite-preview
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-2.0-flash-lite-preview-02-05
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-2.0-pro-exp
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-2.0-pro-exp-02-05
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-exp-1206
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-2.0-flash-thinking-exp-01-21
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-2.0-flash-thinking-exp
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/gemini-2.0-flash-thinking-exp-1219
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/learnlm-1.5-pro-experimental
+Supported methods: ['generateContent', 'countTokens']
+
+Name: models/embedding-001
+Supported methods: ['embedContent']
+
+Name: models/text-embedding-004
+Supported methods: ['embedContent']
+
+Name: models/aqa
+Supported methods: ['generateAnswer']
+
+Name: models/imagen-3.0-generate-002
+Supported methods: ['predict']

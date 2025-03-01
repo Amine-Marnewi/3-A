@@ -1,0 +1,27 @@
+import json
+# client_secrets_file = "C:\Users\VM764NY\OneDrive - EY\Documents\Python Scripts\mail\credentials.json"
+# client_secrets_file = r"C:\Users\VM764NY\OneDrive - EY\Documents\Python Scripts\mail\credentials.json"
+# client_secrets_file = "C:/Users/VM764NY/OneDrive - EY/Documents/Python Scripts/mail/credentials.json"
+# client_secrets_file = "C:\\Users\\VM764NY\\OneDrive - EY\\Documents\\Python Scripts\\mail\\credentials.json"
+# with open(client_secrets_file, "r") as json_file:
+#         client_config = json.load(json_file)
+
+# print(client_config)
+
+
+
+import os
+import json
+
+# Build the path using os.path.join
+client_secrets_file = os.path.join("C:", "Users", "VM764NY", "OneDrive - EY", 
+                                  "Documents", "Python Scripts", "mail", "credentials.json")
+
+# Check if the file exists before trying to open it
+if os.path.exists(client_secrets_file):
+    print(f"File found at: {client_secrets_file}")
+    with open(client_secrets_file, "r") as json_file:
+        client_config = json.load(json_file)
+    print(client_config)
+else:
+    print(f"File not found at: {client_secrets_file}")
